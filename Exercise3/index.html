@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <input
+        type="text"
+        id="searchName"
+        onkeyup="{search()}"
+        placeholder="Search by Name"
+      />
+      <button id="button-sort" onclick="{sort()}">Sort A - Z</button>
+      <table id="data-table">
+        <thead>
+          <tr class="row-title">
+            <th>Name</th>
+            <th>Rotation period</th>
+            <th>Orbital period</th>
+            <th>Diameter</th>
+            <th>Climate</th>
+            <th>Gravity</th>
+            <th>Terrain</th>
+            <th>Surface water</th>
+            <th>Population</th>
+          </tr>
+        </thead>
+        <tbody id="data"></tbody>
+      </table>
+    </div>
+    <script src=".//src/js/script.js"></script>
+  </body>
+</html>

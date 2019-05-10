@@ -1,0 +1,60 @@
+html {
+  background-color: #ebeef2;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  padding: 0 32px;
+}
+
+#searchName {
+  margin: 12px;
+  height: 32px;
+  border: none;
+  padding: 0 12px;
+}
+
+#searchName:focus {
+  box-shadow: 0 2px 3px #555555;
+}
+
+#button-sort {
+  height: 32px;
+  width: 80px;
+  border: none;
+  color: green;
+  font-weight: bold;
+}
+
+#data-table {
+  width: 100%;
+  border-spacing: 0 10px;
+}
+
+.row-title th {
+  color: #555555;
+  text-align: start;
+  padding: 0 12px;
+}
+
+.td1 {
+  border-radius: 10px 0 0 10px;
+  background-color: #f7f7f7;
+}
+
+.td {
+  background-color: #f7f7f7;
+}
+
+.td2 {
+  border-radius: 0 10px 10px 0;
+  background-color: #f7f7f7;
+}
+
+#data td {
+  height: 42px;
+  padding: 0 12px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="content">
+        <h1>CALCULATOR</h1>
+        <div class="result">
+          <input type="number" disabled id="result" />
+        </div>
+        <div class="number">
+          <input type="number" id="number1" placeholder="bilangan 1" />
+          <input type="number" id="number2" placeholder="bilangan 2" />
+        </div>
+        <div class="button">
+          <button
+            onclick="
+            var number1 = document.getElementById('number1').value
+            var number2 = document.getElementById('number2').value
+            var result = parseInt(number1) + parseInt(number2)
+            document.getElementById('result').value = result
+            "
+          >
+            +
+          </button>
+          <button
+            onclick="
+            var number1 = document.getElementById('number1').value
+            var number2 = document.getElementById('number2').value
+            var result = parseInt(number1) - parseInt(number2)
+            document.getElementById('result').value = result
+            "
+          >
+            -
+          </button>
+          <button
+            onclick="
+            var number1 = document.getElementById('number1').value
+            var number2 = document.getElementById('number2').value
+            var result = parseInt(number1) * parseInt(number2)
+            document.getElementById('result').value = result
+            "
+          >
+            x
+          </button>
+          <button
+            onclick="
+            var number1 = document.getElementById('number1').value
+            var number2 = document.getElementById('number2').value
+            var result = parseInt(number1) / parseInt(number2)
+            document.getElementById('result').value = result
+            "
+          >
+            /
+          </button>
+          <button
+            onclick="
+            document.getElementById('number1').value = ''
+            document.getElementById('number2').value = ''
+            document.getElementById('result').value = ''"
+          >
+            C
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

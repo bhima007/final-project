@@ -1,0 +1,154 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #e8e8e8;
+}
+
+.title-background {
+  height: 400px;
+  /* background-image: linear-gradient(90deg, #1d7874, #173f5f); */
+  /* background-image: linear-gradient(90deg, #385170, #142d4c); */
+  /* background-image: linear-gradient(90deg, #33313b, #142d4c); */
+  background-image: linear-gradient(90deg, #33313b, #142d4c);
+  box-shadow: 0 2px 3px #949494;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.biodata-component {
+  height: 350px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 3px #949494;
+  border-radius: 4px;
+  margin-top: 180px;
+}
+
+.componentBoxPicture {
+  height: 300px;
+  width: 250px;
+  margin: 0;
+  background: url("../img/Koala.jpg");
+  background-size: 400px;
+  background-position: -64px;
+  border-radius: 0 4px 0 0;
+}
+
+.componentBoxData {
+  height: 300px;
+  width: 550px;
+  margin: 0;
+  background-color: #e8e8e8;
+  border-radius: 4px 0 0 0;
+}
+
+.dataQuote {
+  margin: 18px;
+  text-align: center;
+}
+
+.title{
+  font-size: 32px;
+  letter-spacing: 12px;
+  color: #085f63;
+}
+
+/* .dataQuote p {
+  margin-top: 42px;
+  font-size: 14px;
+  color: #818181;
+} */
+
+.dataQuote p{
+  margin-top: 20px;
+  font-size: 56px;
+  color: #393e46
+}
+
+.biodata{
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center
+}
+
+.biodata img{
+  height: 16px;
+  margin-right: 4px
+}
+
+.info{
+  align-content: center;
+  justify-content: center
+}
+
+.info a{
+  color: #444444;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.componentBoxFooter {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 100%;
+  background-color: #d8d8d8;
+  border-radius: 0 0 4px 4px;
+  padding: 0 32px
+}
+
+.componentBoxFooter div{
+    margin: 10px 0
+}
+
+.componentBoxFooter img{
+  height: 32px
+}
+
+.title-component p {
+  margin: 0;
+  font-size: 64px;
+}
+
+.title-component b {
+  font-size: 20px;
+}
+
+.content-component{
+  display: flex;
+  margin: 64px 0;
+  width: 800px;
+}
+
+.content-title{
+  color: #173f5f;
+  font-size: 54px
+}
+
+.content-about{
+  width: 600px
+}
+
+.content-about p{
+  padding: 0 8px;
+  font-size: 16px;
+  color: #393e46;
+  text-indent: 25px
+}
+
+.content-note{
+  width: 200px;
+  padding: 12px;
+  background-color: #a2a8d3;
+  color: white
+}

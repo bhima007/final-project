@@ -1,0 +1,72 @@
+.myNavbar {
+  background-image: linear-gradient(to right, #3c415e, #364156);
+  margin: 8px 0 24px 0;
+}
+
+.content {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.content p {
+  margin-top: 32px;
+}
+
+.contentJumbo {
+  text-align: center;
+}
+
+.contentJumbo p {
+  margin: 32px 0;
+}
+
+.cardDewe {
+  padding: 24px;
+  background-color: #e7eaf6;
+  border-radius: 4px;
+  color: #142d4c;
+}
+
+.note {
+  padding: 24px;
+  background-color: #e8e8e8;
+  border-radius: 4px;
+}
+
+.card-row {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card1 {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 6px #142d4c;
+  background-color: aliceblue;
+  border-radius: 4px;
+  margin: 24px;
+}
+
+.card1 img {
+  border-radius: 4px 4px 0 0;
+}
+
+.cardDewe a {
+  color: #393e46;
+}
+
+.card1 h3 {
+  margin: 24px 2px 16px 2px;
+}
+
+.jumbo {
+  margin: 64px 0;
+}
+
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
