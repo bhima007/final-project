@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .myNavbar {
   background-image: linear-gradient(to right, #3c415e, #364156);
   margin: 8px 0 24px 0;
